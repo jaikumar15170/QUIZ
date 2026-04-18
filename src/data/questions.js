@@ -511,8 +511,8 @@ export default {
         {
             question: "Net growth in initial volume is given by",
             options: ["V2-V1", "V2-V1+H-I", "V2-V1+H-I+M", "V2-V1+H-I-M"],
-            correct: 3,
-            explanation: "Net growth = V2-V1+H-I-M (where V2=final volume, V1=initial volume, H=harvest, I=increment, M=mortality). Also written as: V2-V1+M+I-H."
+            correct: 1,
+            explanation: "Net growth = V2-V1+H-I."
         },
         {
             question: "Surveying timberlands to locate and estimate the volumes and grades of standing timber meeting requirements is known as",
@@ -523,8 +523,8 @@ export default {
         {
             question: "Which of these gives the greatest accuracy in constructing face cuts",
             options: ["Conventional face", "Humboldt face", "Open face", "All of these"],
-            correct: 2,
-            explanation: "Open face cutting provides the greatest accuracy in constructing face cuts for optimal tree felling control."
+            correct: 0,
+            explanation: "Conventional face cutting provides the greatest accuracy in constructing face cuts."
         },
         {
             question: "Trees to be retained are shown in ___ marking colour",
@@ -541,14 +541,14 @@ export default {
         {
             question: "Research plots are shown in ___ marking colour",
             options: ["Yellow", "Blue", "Red", "White"],
-            correct: 0,
-            explanation: "Yellow markings denote research plots or study areas that are not to be harvested during normal operations."
+            correct: 3,
+            explanation: "White markings denote research plots or study areas."
         },
         {
             question: "Trees on boundary are shown in ___ marking colour",
             options: ["Yellow", "Blue", "Red", "White"],
-            correct: 3,
-            explanation: "White markings indicate boundary trees that mark property or management unit boundaries and are typically retained."
+            correct: 2,
+            explanation: "Red markings indicate boundary trees."
         },
         {
             question: "Which of these gives the greatest saving of lumber",
