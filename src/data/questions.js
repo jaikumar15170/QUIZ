@@ -15,7 +15,7 @@ export default {
         {
             question: "Montane sub-tropical forests do not include",
             options: ["Broadleaved forests", "Pine forests", "Semi-evergreen forests", "Dry evergreen forests"],
-            correct: 2,
+            correct: 3,
             explanation: "Dry evergreen forests are not found in montane subtropical regions. Broadleaved, pine, and semi-evergreen forests are typical of montane subtropical zones."
         },
         {
@@ -195,8 +195,8 @@ export default {
         {
             question: "In India, the breast height is considered to be",
             options: ["1.37 m", "1.47 m", "1.57 m", "2.47 m"],
-            correct: 1,
-            explanation: "In India, breast height is standardized at 1.47 meters (approximately 4.85 feet) above ground level for measuring tree diameter."
+            correct: 0,
+            explanation: "In India, breast height is standardized at 1.37 meters above ground level for measuring tree diameter."
         },
         {
             question: "3 trees are located in a sample plot of 15 m × 15 m. Their dbh are as under: dbh = 25 cm, 30 cm, 35 cm. Find the stand basal area in sq m per Ha.",
@@ -225,14 +225,14 @@ export default {
         {
             question: "For normal form factor, the reference for the base of the cylinder is",
             options: ["Base of the tree", "Breast height", "10% of tree height", "20% of tree height"],
-            correct: 2,
-            explanation: "For normal form factor, the reference is 10% of tree height. This provides a standard point along the bole for comparison purposes."
+            correct: 1,
+            explanation: "For normal form factor, the reference is breast height. This provides a standard reference point for comparison purposes."
         },
         {
             question: "A tree has dbh of 35 cm. Find its basal area in sq m.",
             options: [".049", ".096", ".149", ".195"],
-            correct: 2,
-            explanation: "Basal area = π/4 × d² = (3.14159/4) × (0.35)² = 0.7854 × 0.1225 = 0.0962 m² ≈ 0.096 m². Actually, it should be approximately 0.096 m²."
+            correct: 1,
+            explanation: "Basal area = π/4 × d² = (3.14159/4) × (0.35)² = 0.7854 × 0.1225 = 0.0962 m² ≈ 0.096 m²."
         },
         {
             question: "Diameter over bark (dob), diameter under bark (dub) and bark thickness (tb) are related as:",
@@ -437,13 +437,13 @@ export default {
         {
             question: "In group shelterwood system, the regeneration area is increased",
             options: ["Centrifugally around gaps", "Centripetally around gaps", "Parallel to gaps", "Perpendicular to gaps"],
-            correct: 1,
+            correct: 0,
             explanation: "In group shelterwood, regeneration areas expand outward (centrifugally) from the initially cleared gaps, gradually increasing the regeneration area."
         },
         {
             question: "Which of these is the correct sequence for shelterwood system?",
             options: ["Preparatory felling -> Secondary felling -> Seedling felling -> Final felling", "Preparatory felling -> Seedling felling -> Secondary felling -> Final felling", "Preparatory felling -> Secondary felling -> Seeding felling -> Final felling", "Preparatory felling -> Seeding felling -> Secondary felling -> Final felling"],
-            correct: 3,
+            correct: 2,
             explanation: "The correct sequence is: Preparatory felling (remove dead/diseased trees) → Secondary felling (thin canopy) → Seeding felling (regeneration opening) → Final felling (remove shelter)."
         },
         {
@@ -455,8 +455,8 @@ export default {
         {
             question: "Catchment areas are best suited for",
             options: ["Clear felling system", "Selection system", "Uniform shelterwood system", "Group shelterwood system"],
-            correct: 1,
-            explanation: "Catchment areas are sensitive to erosion, so selection system is best as it maintains continuous forest cover and prevents soil erosion and water loss."
+            correct: 3,
+            explanation: "Catchment areas are best suited for group shelterwood system to maintain forest cover and prevent soil erosion and water loss."
         },
         {
             question: "Trees not putting increment are removed during",
@@ -523,8 +523,8 @@ export default {
         {
             question: "Which of these gives the greatest accuracy in constructing face cuts",
             options: ["Conventional face", "Humboldt face", "Open face", "All of these"],
-            correct: 3,
-            explanation: "All three face cut types (conventional, Humboldt, and open) can provide good accuracy when properly constructed by skilled fellers."
+            correct: 2,
+            explanation: "Open face cutting provides the greatest accuracy in constructing face cuts for optimal tree felling control."
         },
         {
             question: "Trees to be retained are shown in ___ marking colour",
@@ -553,8 +553,8 @@ export default {
         {
             question: "Which of these gives the greatest saving of lumber",
             options: ["Conventional face", "Humboldt face", "Open face", "All of these"],
-            correct: 2,
-            explanation: "All three face cuts have been optimized to reduce waste. The greatest savings depends on specific tree and log characteristics, so all can be equally efficient."
+            correct: 1,
+            explanation: "Humboldt face cutting provides the greatest saving of lumber by optimizing log extraction and minimizing waste."
         }
     ],
     10: [
@@ -573,8 +573,8 @@ export default {
         {
             question: "Which of these conserves moisture",
             options: ["Sunken bed", "Raised bed", "Flat bed", "All of these"],
-            correct: 3,
-            explanation: "All bed types can conserve moisture when properly managed. Sunken beds retain water naturally, but raised and flat beds can also conserve moisture with mulching and irrigation."
+            correct: 0,
+            explanation: "Sunken beds conserve moisture best as they retain water naturally by being below ground level."
         },
         {
             question: "Shell cracking of seeds is used for which species",
@@ -603,8 +603,8 @@ export default {
         {
             question: "Wet and dry treatment of seeds is used for which species",
             options: ["Amla", "Mango", "Ber", "Teak"],
-            correct: 1,
-            explanation: "Wet and dry treatment (alternating wet and dry conditions) is used for mango seeds to break physiological dormancy and improve germination."
+            correct: 3,
+            explanation: "Wet and dry treatment (alternating wet and dry conditions) is used for teak seeds to break physiological dormancy and improve germination."
         },
         {
             question: "Choice of spacing is dependent upon",
@@ -715,14 +715,14 @@ export default {
         {
             question: "For a tree with dbh = 45.6 cm, height = 27 m and total stem volume of 1.78 cum, the artificial form factor for the tree is:",
             options: ["0.1", "0.2", "0.3", "0.4"],
-            correct: 2,
-            explanation: "Artificial form factor = Actual volume / (π/4 × DBH² × H) = 1.78 / (0.7854 × 0.456² × 27) = 1.78 / 5.9 ≈ 0.3"
+            correct: 3,
+            explanation: "Artificial form factor = Actual volume / (π/4 × DBH² × H). Standard form factors approximate to 0.4 for forest trees."
         },
         {
             question: "\"Plant community, predominantly comprised of trees and other woody vegetation, usually with a closed canopy\" is",
             options: ["Silvicultural definition of forests", "FAO definition of forests", "Legal definition of forests", "Ecological definition of forests"],
-            correct: 1,
-            explanation: "This is the FAO (Food and Agriculture Organization) definition of forests, which is internationally recognized and used for forest statistics."
+            correct: 3,
+            explanation: "This is the ecological definition of forests based on structure and ecosystem characteristics with closed canopy."
         },
         {
             question: "The term laterite soil is derived from Latin later which means",
