@@ -319,8 +319,8 @@ export default {
         {
             question: "A scientist uses a trap to capture a monkey. In the context of Wildlife Protection Act 1972,",
             options: ["The trap is a weapon and capturing is hunting", "The trap is not a weapon and capturing is hunting", "The trap is a weapon and capturing is not hunting", "The trap is not a weapon and capturing is not hunting"],
-            correct: 1,
-            explanation: "A trap is not considered a weapon under the Act, but capturing an animal is considered hunting regardless of whether a weapon is used."
+            correct: 0,
+            explanation: "Under the Wildlife Protection Act 1972, a trap is considered a weapon and capturing an animal is considered hunting."
         },
         {
             question: "Which of these is a deterministic factor?",
@@ -337,7 +337,7 @@ export default {
         {
             question: "In the formula I = P X A X T, T refers to",
             options: ["Transference", "Time", "Technology", "None of the above"],
-            correct: 1,
+            correct: 2,
             explanation: "In the formula I = PAT (Environmental Impact = Population × Affluence × Technology), T represents Technology's impact on the environment."
         },
         {
@@ -367,8 +367,8 @@ export default {
         {
             question: "A veterinarian uses an immobilising gun to capture a deer. In the context of Wildlife Protection Act 1972,",
             options: ["The immobilising gun is a weapon and capturing is hunting", "The immobilising gun is not a weapon and capturing is hunting", "The immobilising gun is a weapon and capturing is not hunting", "The immobilising gun is not a weapon and capturing is not hunting"],
-            correct: 2,
-            explanation: "An immobilising gun is considered a weapon under the Act, but using it for wildlife management/capture is not considered hunting; it's scientific capture."
+            correct: 0,
+            explanation: "Under the Wildlife Protection Act 1972, an immobilising gun is considered a weapon and capturing an animal is considered hunting."
         }
     ],
     7: [
