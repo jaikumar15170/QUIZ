@@ -50,7 +50,7 @@ export default function Summary({ testMode, testSize, currentWeek, questions, an
         <div className="space-y-6 animate-slideInUp">
             {/* Main Completion Header */}
             <div className="card text-center">
-                <div className="text-6xl mb-4 animate-bounce">{getMedalEmoji()}</div>
+                <div className="text-6xl mb-4">{getMedalEmoji()}</div>
                 <h2 className="text-4xl md:text-5xl font-black text-gray-800 mb-2">
                     {testMode ? '🎊 Test Completed!' : '✅ Quiz Completed!'}
                 </h2>
@@ -114,8 +114,8 @@ export default function Summary({ testMode, testSize, currentWeek, questions, an
                             <div
                                 key={index}
                                 className={`p-4 rounded-xl border-l-4 transition-all ${isCorrect
-                                        ? 'bg-gradient-to-r from-green-50 to-emerald-50 border-green-500 hover:shadow-md'
-                                        : 'bg-gradient-to-r from-red-50 to-pink-50 border-red-500 hover:shadow-md'
+                                    ? 'bg-gradient-to-r from-green-50 to-emerald-50 border-green-500 hover:shadow-md'
+                                    : 'bg-gradient-to-r from-red-50 to-pink-50 border-red-500 hover:shadow-md'
                                     }`}
                             >
                                 <div className="flex items-start gap-3">

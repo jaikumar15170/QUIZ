@@ -118,10 +118,10 @@ export default function App() {
         <div className="min-h-screen">
             {/* Animated Background */}
             <div className="fixed inset-0 -z-10 bg-gradient-to-br from-purple-600 via-pink-600 to-orange-500 opacity-90"></div>
-            <div className="fixed inset-0 -z-10">
-                <div className="absolute top-10 left-10 w-72 h-72 bg-blue-400 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>
-                <div className="absolute bottom-10 right-10 w-72 h-72 bg-green-400 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>
-                <div className="absolute top-1/2 left-1/3 w-72 h-72 bg-pink-400 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>
+            <div className="fixed inset-0 -z-10 pointer-events-none">
+                <div className="absolute top-10 left-10 w-64 h-64 bg-blue-400 rounded-full mix-blend-multiply opacity-10"></div>
+                <div className="absolute bottom-10 right-10 w-64 h-64 bg-green-400 rounded-full mix-blend-multiply opacity-10"></div>
+                <div className="absolute top-1/2 left-1/3 w-64 h-64 bg-pink-400 rounded-full mix-blend-multiply opacity-10"></div>
             </div>
 
             {/* Header */}
@@ -129,7 +129,7 @@ export default function App() {
                 <div className="container mx-auto px-4 py-6 max-w-5xl">
                     <div className="flex items-center justify-between">
                         <div className="flex items-center gap-3">
-                            <div className="text-4xl animate-bounce">🎯</div>
+                            <div className="text-4xl">🎯</div>
                             <div>
                                 <h1 className="text-3xl md:text-4xl font-black text-white drop-shadow-lg">Quiz Master</h1>
                                 <p className="text-white/80 text-sm md:text-base">Master the Concepts</p>

@@ -6,7 +6,7 @@ export default function Welcome({ onSelectWeek, onStartTest }) {
             {/* Welcome Section */}
             <div className="card text-center">
                 <div className="mb-6">
-                    <div className="text-6xl mb-4 animate-bounce">📚</div>
+                    <div className="text-6xl mb-4">📚</div>
                     <h2 className="text-4xl md:text-5xl font-black bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
                         Welcome to Quiz Master
                     </h2>
