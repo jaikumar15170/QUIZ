@@ -11,10 +11,10 @@ export default {
                 dark: '#1f2937',
             },
             animation: {
-                'slideInUp': 'slideInUp 0.6s ease-out',
-                'slideInDown': 'slideInDown 0.5s ease-out',
-                'fadeIn': 'fadeIn 0.5s ease-out',
-                'pulse-grow': 'pulse-grow 0.6s ease-out',
+                'slideInUp': 'slideInUp 0.25s ease-out',
+                'slideInDown': 'slideInDown 0.25s ease-out',
+                'fadeIn': 'fadeIn 0.3s ease-out',
+                'pulse-grow': 'pulse-grow 0.3s ease-out',
                 'bounce-smooth': 'bounce-smooth 2s ease-in-out infinite',
                 'float': 'float 3s ease-in-out infinite',
                 'confetti': 'confetti-fall 3s ease-in forwards',
@@ -24,7 +24,7 @@ export default {
                 slideInUp: {
                     'from': {
                         'opacity': '0',
-                        'transform': 'translateY(30px)',
+                        'transform': 'translateY(20px)',
                     },
                     'to': {
                         'opacity': '1',
@@ -34,7 +34,7 @@ export default {
                 slideInDown: {
                     'from': {
                         'opacity': '0',
-                        'transform': 'translateY(-20px)',
+                        'transform': 'translateY(-10px)',
                     },
                     'to': {
                         'opacity': '1',

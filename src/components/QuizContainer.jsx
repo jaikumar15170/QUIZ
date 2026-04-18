@@ -38,9 +38,9 @@ export default function QuizContainer({
             <div className="card animate-slideInUp">
                 {/* Result Badge */}
                 <div className="mb-6">
-                    <div className={`text-center p-8 rounded-2xl mb-6 transition-all duration-500 ${isCorrect
-                            ? 'bg-gradient-to-r from-green-100 to-emerald-100 border-2 border-green-500 ring-4 ring-green-300'
-                            : 'bg-gradient-to-r from-red-100 to-pink-100 border-2 border-red-500 ring-4 ring-red-300'
+                    <div className={`text-center p-8 rounded-2xl mb-6 transition-all duration-200 ${isCorrect
+                        ? 'bg-gradient-to-r from-green-100 to-emerald-100 border-2 border-green-500 ring-4 ring-green-300'
+                        : 'bg-gradient-to-r from-red-100 to-pink-100 border-2 border-red-500 ring-4 ring-red-300'
                         }`}>
                         <p className={`text-4xl font-black ${isCorrect ? 'text-green-700' : 'text-red-700'}`}>
                             {isCorrect ? '✨ Correct!' : '⚠️ Not Quite'}
